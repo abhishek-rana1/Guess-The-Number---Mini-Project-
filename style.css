@@ -25,7 +25,7 @@ html,body{
     margin-top: -5vh;
     margin-bottom: 5vh;
 font-size: 2rem;
-background-color: lightgoldenrodyellow;
+background-color: white;
 padding: 1vw 2vw;
 border-radius: 0.5vw;
 box-shadow: rgba(53, 50, 50, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(202, 154, 154, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -205,11 +205,13 @@ margin-top: 2vh;
 .container{
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .welcome{
     font-size: 1.4rem;
     padding: 1.8vw 3vw;
+    background-color: white;
 }
 
 .card{
@@ -235,7 +237,7 @@ h1{
 
 .submit{
     width: 35vw;   
-    left: 59.3vw;
+    left: 59.6vw;
     font-size: 0.9rem;
 }
 
@@ -299,5 +301,6 @@ h2{
 .name{
     margin-top: 27vh;
     margin-left: 15vw;
+    color: white;
 }
 }
