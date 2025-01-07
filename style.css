@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html,body{
+    height: 100vh;
+    width: 100%;
+  
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome{
+    margin-top: -5vh;
+    margin-bottom: 5vh;
+font-size: 2rem;
+background-color: lightgoldenrodyellow;
+padding: 1vw 2vw;
+border-radius: 0.5vw;
+box-shadow: rgba(53, 50, 50, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(202, 154, 154, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.card{
+    height: 55vh;
+    width: 38vw;
+    background-color: white;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ h1{
+    text-align: center;
+    margin-bottom: 2vh;
+ }
+
+ h2{
+    transition: all linear 0.3s;
+    font-size: 2rem;
+ }
+  
+  .guess-input{
+      height: 7vh;
+      width: 32vw;
+    border: none;
+    outline: none;
+    caret-color: rgb(255, 81, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    padding-left: 2vw;
+    letter-spacing: 0.8px;
+    color: rgb(19, 19, 19);
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+    cursor: pointer;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+ background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(235, 195, 169));
+ margin-bottom: 4vh;
+  }
+  
+
+.submit{
+    position: absolute;
+        width: 10vw;
+        height: 7vh;
+        font-size: 1rem;
+        background: #FF7F3E;
+        border: none;
+        border-radius: 50px;
+        color: #000;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.4s;
+        color: white;
+      left: 56vw;
+}
+
+.submit:hover{
+    box-shadow: inset 0 0 0 4px #ef476f, 
+              inset 0 0 0 8px #ffd166;
+  color: #fff;
+}
+
+.previous-guess{
+    font-size: 1.2rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.guess-remaining{
+    font-size: 1.2rem;
+}
+
+.info{
+    margin-top: 5vh;
+    background-color: darkslategrey;
+    padding: 1vw 2vw;
+    border-radius: 0.3vw;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.name{
+    font-size: 0.7rem;
+    color: black;
+    margin-top: 7vh;
+    margin-left: 9vw;
+    
+}
+
+
+.welcome-page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome-card{
+    height: 40vh;
+    width: 35vw;
+    background-color: white;
+    display: flex;
+    padding: 2vw 1vw;
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left img{
+height: 30vh;
+width: 10vw;
+
+
+}
+
+.right{
+    margin-left: 3vw;
+}
+
+.right label{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+.right input{
+    height: 6vh;
+    width:18vw;
+  border: none;
+  outline: 0.2rem solid orange;
+  caret-color: rgb(203, 151, 228);
+  background-color: rgb(255, 255, 255);
+  border-radius: 2vw;
+  padding-left: 1vw;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  cursor: pointer;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+margin-top: 2vh;
+}
+
+.next-btn{
+    width: 10vw;
+    height: 7vh;
+    font-size: 1.6rem;
+    background: #FF7F3E;
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    color: white;
+    margin-top: 6vh;
+    margin-left: 4vw;
+}
+
+.next-btn:hover{
+    background-color: orange;
+}
+
+/* Start Responisive For Mobile Devices  */
+
+@media (max-width:600px){
+    
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.welcome{
+    font-size: 1.4rem;
+    padding: 1.8vw 3vw;
+}
+
+.card{
+    width: 93vw;
+    height: 50vh;
+}
+
+h1{
+    font-size: 1.8rem;
+    margin-top: -1vh;
+}
+
+.guess-input{
+    width: 88vw;
+    border-radius: 5vw;
+    font-size: 1.4rem;
+}
+
+.guess-input::placeholder{
+    font-size: 0.83rem;
+    
+}
+
+.submit{
+    width: 35vw;   
+    left: 59.3vw;
+    font-size: 0.9rem;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+.previous-guess{
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
+    margin-top: 4vh;
+}
+
+.info{
+    font-size: 1.2rem;
+    padding: 2vw 3vw;
+}
+
+.welcome-card{
+    width: 90vw;
+    margin-left: -1vw;
+    padding-top: 4vh;
+}
+
+.left img{
+    height: 30vh;
+    width: 34vw;
+    margin-top: 3vh;
+    margin-left: 0vw;
+}
+
+.right{
+    margin-left: 0vw;
+}
+
+
+.right label{
+    font-size: 1.1rem;
+    margin-left: 6vw;
+    margin-top: 5vh;
+}
+
+.right input{
+    width: 50vw;
+    height: 4vh;
+    margin-left: 2vw;
+    font-size: 1.1rem;
+}
+
+.right input::placeholder{
+    font-size: 0.9rem;
+}
+
+.next-btn{
+    width: 35vw;
+    height: 6vh;
+    font-size: 1.2rem;
+    margin-left: 7vw;
+}
+
+.name{
+    margin-top: 27vh;
+    margin-left: 15vw;
+}
+}
